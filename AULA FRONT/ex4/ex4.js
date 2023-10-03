@@ -1,14 +1,12 @@
-const notas = [];
+const nota= [];
 
 for (let i = 0; i < 3; i++) {
   const nota = parseFloat(prompt(`Digite a nota ${i + 1}:`));
   notas.push(nota);
 }
 
-// Calcular a média das notas
-const media = (notas[0] + notas[1] + notas[2]) / 3;
+const media = (nota[0] + nota[1] + nota[2]) / 3;
 
-// Determinar o status do aluno
 let situacao;
 
 if (media >= 7) {
